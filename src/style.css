@@ -1,0 +1,58 @@
+/* whole document */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #7f8198;
+}
+
+
+/**
+ * Navbar
+ */
+
+
+.navbar {
+
+	background-color: rgba(255, 255, 255, 0.5);
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+	transition: top 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+
+.menu {
+  float: right;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.menu>a {
+	text-decoration: none;
+	color: black;
+}
+.menu>a:hover {
+	color: blue;
+}
+
+/**
+ * Home
+ */
+
+.home {
+  margin-top: 50px;
+
+  height: calc(100vh - 0px);
+
+}
